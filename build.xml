@@ -1,0 +1,9 @@
+<project name="Deploy Apex Classes" default="deploy" basedir="." xmlns:sf="antlib:com.salesforce">
+ 
+    <property file="build.properties"/>
+ 
+    <target name="deploy">
+        <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="src/classes"/>
+    </target>
+ 
+</project>

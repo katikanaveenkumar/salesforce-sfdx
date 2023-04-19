@@ -1,0 +1,21 @@
+<apex:page >
+    <apex:pageBlock title="General Information">
+        <apex:pageBlockSection title="Registration Info">
+        	CHECKING
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="We Will">
+        	CHECKING
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Tmr">
+        	CHECKING
+        </apex:pageBlockSection>
+    	
+    </apex:pageBlock>
+    <apex:pageBlock title="Client">
+    	This is my first VF page
+    </apex:pageBlock>
+    <apex:pageBlock title="Financial Details">
+    	That is great 
+    </apex:pageBlock>
+    ="Highlight"
+</apex:page>
